@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="buiten">
+    <fieldset>
+        <legend><h1><strong>BMI Calculator</strong></h1></legend><br/>
+        <p><strong>Lengte</strong> (cm): </p><input type="text" id="lengte" placeholder="Lengte" onkeypress="return isNumberKey(event)"><br/>
+        <p><strong>Gewicht</strong> (kg): </p><input type="text" id="gewicht" placeholder="Gewicht" onkeypress="return isNumberKey(event)"><br/><br/>
+        <input type="submit" id="submit" value="Bereken">
+        <p id="result" class="invoer"></p>
+
+
+    </fieldset>
+<footer><br/>COPYRIGHT © 2017 | Cem den Ouden | MD1A</footer>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
